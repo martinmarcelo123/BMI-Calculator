@@ -2,7 +2,9 @@ import { Component, Input } from '@angular/core';
 import { Button, Item, NavController } from 'ionic-angular';
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html'
+  templateUrl: 'home.html',
+  styleUrls: ['home.css']
+
 })
 export class HomePage {
  height: number;
